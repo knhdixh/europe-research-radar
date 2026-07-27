@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-07-27T15:24:04.530Z",
+  "changed": [],
+  "failures": [
+    {
+      "id": "ellis-research-jobs",
+      "url": "https://ellis.eu/research/jobs",
+      "status": "blocked",
+      "changed": false,
+      "error": "fetch failed"
+    },
+    {
+      "id": "oxford-uniq-plus",
+      "url": "https://www.ox.ac.uk/admissions/graduate/access/uniq-plus",
+      "status": "blocked",
+      "httpStatus": 403,
+      "changed": false,
+      "baseline": false
+    }
+  ],
+  "summary": {
+    "checked": 32,
+    "changed": 0,
+    "failures": 2
+  }
+}

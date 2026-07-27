@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.DS_Store
+.env
+.env.*
+!.env.example
+coverage/
+automation-output/weekly-digest.md
+playwright-report/
+test-results/

@@ -1,0 +1,120 @@
+version: 1
+defaults:
+  cadence: daily
+  freshness_days: 30
+  request_timeout_ms: 20000
+sources:
+  - id: aalto-asci
+    url: https://www.aalto.fi/en/aalto-science-institute-asci/how-to-apply-for-the-asci-international-summer-research-programme
+    expected_opening_months: [1]
+  - id: helsinki-science-summer-jobs
+    url: https://www.helsinki.fi/en/faculty-science/faculty/faculty-science-summer-jobs
+    expected_opening_months: [1]
+  - id: cern-openlab
+    url: https://openlab.web.cern.ch/cern-openlab-summer-student-programme/
+    expected_opening_months: [11, 12]
+  - id: eth-ssrf
+    url: https://inf.ethz.ch/studies/summer-research-fellowship/how-to-apply.html
+    expected_opening_months: [11]
+  - id: summer-at-epfl
+    url: https://summer.epfl.ch/
+    expected_opening_months: [10, 11]
+  - id: max-planck-cs
+    url: https://www.cis.mpg.de/internships/
+    expected_opening_months: [1, 11]
+  - id: inria-internships
+    url: https://www.inria.fr/en/do-internship
+    expected_opening_months: [1, 9, 10, 11, 12]
+    cadence: weekly
+  - id: cwi-master-projects
+    url: https://www.cwi.nl/en/jobs/traineeships_cwi/current-master-projects/
+    expected_opening_months: []
+  - id: ellis-research-jobs
+    url: https://ellis.eu/research/jobs
+    expected_opening_months: []
+  - id: cambridge-srim
+    url: https://www.maths.cam.ac.uk/opportunities/careers-for-mathematicians/summer-research-mathematics/summer-research-maths-srim
+    expected_opening_months: [1, 2]
+  - id: oxford-stats
+    url: https://www.stats.ox.ac.uk/statistics-summer-research-internships
+    expected_opening_months: [1]
+  - id: daad-rise
+    url: https://www.daad.de/rise/en/rise-germany/find-an-internship/what-applicants-need-to-know/
+    expected_opening_months: [10, 11]
+  - id: desy-summer
+    url: https://summerstudents.desy.de/
+    expected_opening_months: [11, 12, 1]
+  - id: ista-internships
+    url: https://www.ist.ac.at/en/education/internship-and-scholarship/
+    expected_opening_months: []
+  - id: psi-summer
+    url: https://www.psi.ch/en/summerstudents
+    expected_opening_months: [11, 12, 1]
+  - id: esa-internships
+    url: https://www.esa.int/About_Us/Careers_at_ESA/Student_Internships2
+    expected_opening_months: [11]
+  - id: esrf-ill-summer
+    url: https://www.esrf.fr/fr/home/education/summer-student-programme.html
+    expected_opening_months: [1, 2]
+  - id: iter-internships
+    url: https://www.iter.org/public/jobs/internships
+    expected_opening_months: [10, 11, 12]
+  - id: fair-get-involved
+    url: https://fair-center.eu/career/get_involved/short_term_internship
+    expected_opening_months: []
+  - id: bcam-visiting
+    url: https://www.bcamath.org/en/join-us/bcam-visiting-programmes
+    expected_opening_months: []
+  - id: imdea-software
+    url: https://software.imdea.org/careers/call-for-internships/
+    expected_opening_months: []
+  - id: imperial-urop
+    url: https://www.imperial.ac.uk/students/undergraduate-research-opportunities-programme/
+    expected_opening_months: [1, 2, 3]
+  - id: lms-bursaries
+    url: https://www.lms.ac.uk/grants/undergraduate-research-bursaries/applications
+    expected_opening_months: [10, 11]
+  - id: epfl-e3
+    url: https://eee.epfl.ch/
+    expected_opening_months: [10, 11]
+  - id: epfl-summer-lab
+    url: https://www.epfl.ch/education/bachelor/enhanced-learning-programs/summer-in-the-lab-internship-program/
+    expected_opening_months: [1]
+  - id: epfl-life-sciences
+    url: https://www.epfl.ch/schools/sv/education/summer-research-program/program-description/
+    expected_opening_months: [10]
+  - id: aalto-cs-summer
+    url: https://www.aalto.fi/en/department-of-computer-science/summer-employee-positions-at-the-department-of-computer-science-2026
+    expected_opening_months: [1]
+  - id: oxford-uniq-plus
+    url: https://www.ox.ac.uk/admissions/graduate/access/uniq-plus
+    expected_opening_months: [1]
+  - id: vienna-biocenter
+    url: https://training.vbc.ac.at/summer-school/
+    expected_opening_months: [11, 12]
+  - id: amgen-cambridge
+    url: https://amgenscholars.bio.cam.ac.uk/
+    expected_opening_months: [11]
+  - id: amgen-lmu
+    url: https://www.amgenscholars.mcn.uni-muenchen.de/apply/index.html
+    expected_opening_months: [11]
+  - id: cern-summer
+    url: https://careers.cern/summer
+    expected_opening_months: [11, 12]
+
+discovery:
+  max_query_clusters: 12
+  max_candidates: 20
+  queries:
+    - site:*.eu OR site:*.ac.uk "summer research programme" (AI OR machine learning OR mathematics)
+    - site:*.de "research internship" (optimization OR scientific computing OR signal processing) student
+    - site:*.fr stage recherche (apprentissage automatique OR optimisation OR calcul scientifique)
+    - site:*.ch "summer research" (computer science OR physics OR engineering) students
+    - site:*.nl (CWI OR university) "research internship" mathematics computer science
+    - site:*.fi "summer research" (AI OR physics OR engineering) students
+    - site:*.at "scientific internship" student (machine learning OR mathematics OR physics)
+    - site:*.es "research internship" (mathematics OR AI OR software) student
+    - site:*.it "summer research programme" (AI OR physics OR mathematics)
+    - site:*.dk OR site:*.se OR site:*.no "research internship" student machine learning
+    - site:ellis.eu (internship OR summer school) machine learning
+    - site:*.org European research centre student internship scientific computing
