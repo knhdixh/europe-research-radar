@@ -47,6 +47,10 @@ jobs:
       - name: Prepare weekly digest
         if: github.event.schedule == '15 18 * * 0' || inputs.mode == 'weekly'
         run: npm run digest
+      - name: Ensure automation labels exist
+        run: |
+          gh label create data-review --color 0E8A86 --description "Official-source data awaiting human review" --force
+          gh label create weekly-digest --color 1D76DB --description "Weekly research-radar digest" --force
       - name: Create or update one review pull request
         uses: peter-evans/create-pull-request@v7
         with:
