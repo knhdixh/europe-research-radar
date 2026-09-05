@@ -1,10 +1,147 @@
 {
-  "generatedAt": "2026-07-27T15:24:04.530Z",
-  "changed": [],
-  "failures": [
+  "generatedAt": "2026-09-05T09:02:47.514Z",
+  "changed": [
+    {
+      "id": "eth-ssrf",
+      "url": "https://inf.ethz.ch/studies/summer-research-fellowship/how-to-apply.html",
+      "status": "active",
+      "httpStatus": 200,
+      "changed": true,
+      "baseline": false
+    },
+    {
+      "id": "inria-internships",
+      "url": "https://www.inria.fr/en/do-internship",
+      "status": "active",
+      "httpStatus": 200,
+      "changed": true,
+      "baseline": false
+    },
     {
       "id": "ellis-research-jobs",
       "url": "https://ellis.eu/research/jobs",
+      "status": "active",
+      "httpStatus": 200,
+      "changed": true,
+      "baseline": false
+    },
+    {
+      "id": "daad-rise",
+      "url": "https://www.daad.de/rise/en/rise-germany/find-an-internship/what-applicants-need-to-know/",
+      "status": "active",
+      "httpStatus": 200,
+      "changed": true,
+      "baseline": false
+    },
+    {
+      "id": "desy-summer",
+      "url": "https://summerstudents.desy.de/",
+      "status": "active",
+      "httpStatus": 200,
+      "changed": true,
+      "baseline": false
+    },
+    {
+      "id": "psi-summer",
+      "url": "https://www.psi.ch/en/summerstudents",
+      "status": "active",
+      "httpStatus": 200,
+      "changed": true,
+      "baseline": false
+    },
+    {
+      "id": "esa-internships",
+      "url": "https://www.esa.int/About_Us/Careers_at_ESA/Student_Internships2",
+      "status": "active",
+      "httpStatus": 200,
+      "changed": true,
+      "baseline": false
+    },
+    {
+      "id": "esrf-ill-summer",
+      "url": "https://www.esrf.fr/fr/home/education/summer-student-programme.html",
+      "status": "active",
+      "httpStatus": 200,
+      "changed": true,
+      "baseline": false
+    },
+    {
+      "id": "iter-internships",
+      "url": "https://www.iter.org/public/jobs/internships",
+      "status": "active",
+      "httpStatus": 200,
+      "changed": true,
+      "baseline": false
+    },
+    {
+      "id": "fair-get-involved",
+      "url": "https://fair-center.eu/career/get_involved/short_term_internship",
+      "status": "active",
+      "httpStatus": 200,
+      "changed": true,
+      "baseline": false
+    },
+    {
+      "id": "bcam-visiting",
+      "url": "https://www.bcamath.org/en/join-us/bcam-visiting-programmes",
+      "status": "active",
+      "httpStatus": 200,
+      "changed": true,
+      "baseline": false
+    },
+    {
+      "id": "imperial-urop",
+      "url": "https://www.imperial.ac.uk/students/undergraduate-research-opportunities-programme/",
+      "status": "redirected",
+      "httpStatus": 200,
+      "changed": true,
+      "baseline": false
+    },
+    {
+      "id": "lms-bursaries",
+      "url": "https://www.lms.ac.uk/grants/undergraduate-research-bursaries/applications",
+      "status": "active",
+      "httpStatus": 200,
+      "changed": true,
+      "baseline": false
+    },
+    {
+      "id": "epfl-e3",
+      "url": "https://eee.epfl.ch/",
+      "status": "active",
+      "httpStatus": 200,
+      "changed": true,
+      "baseline": false
+    },
+    {
+      "id": "vienna-biocenter",
+      "url": "https://training.vbc.ac.at/summer-school/",
+      "status": "active",
+      "httpStatus": 200,
+      "changed": true,
+      "baseline": false
+    },
+    {
+      "id": "amgen-cambridge",
+      "url": "https://amgenscholars.bio.cam.ac.uk/",
+      "status": "active",
+      "httpStatus": 200,
+      "changed": true,
+      "baseline": false
+    },
+    {
+      "id": "cern-summer",
+      "url": "https://careers.cern/summer",
+      "status": "redirected",
+      "httpStatus": 200,
+      "changed": true,
+      "baseline": false
+    }
+  ],
+  "failures": [
+    {
+      "id": "max-planck-cs",
+      "url": "https://www.cis.mpg.de/internships/",
       "status": "blocked",
       "changed": false,
       "error": "fetch failed"
@@ -20,7 +157,7 @@
   ],
   "summary": {
     "checked": 32,
-    "changed": 0,
+    "changed": 17,
     "failures": 2
   }
 }
