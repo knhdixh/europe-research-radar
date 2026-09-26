@@ -6,8 +6,8 @@
       "finalUrl": "https://www.aalto.fi/en/aalto-science-institute-asci/how-to-apply-for-the-asci-international-summer-research-programme",
       "status": "active",
       "httpStatus": 200,
-      "fingerprint": "db3cf17e7427a62fb308dccfc5280f3088411ab9343acb3897c0f124e382db2e",
-      "contentLength": 11245,
+      "fingerprint": "e93c2e174605b5e2439424c4d5350a5f7517c9cac135195b81d2d2b100720eae",
+      "contentLength": 11311,
       "baselineAt": "2026-07-27T15:23:01.206Z"
     },
     "helsinki-science-summer-jobs": {
@@ -33,8 +33,8 @@
       "finalUrl": "https://inf.ethz.ch/studies/summer-research-fellowship/how-to-apply.html",
       "status": "active",
       "httpStatus": 200,
-      "fingerprint": "eed14c4b3d8ec533d1d922aca4bccc6f22004079091bbd98da266270de979bc8",
-      "contentLength": 5462,
+      "fingerprint": "223b862a0a8007627c81db4feadb6468251be6552d7bc88771e67eae62f0f190",
+      "contentLength": 5427,
       "baselineAt": "2026-07-27T15:23:01.335Z"
     },
     "summer-at-epfl": {
@@ -51,8 +51,8 @@
       "finalUrl": "https://www.cis.mpg.de/internships/",
       "status": "active",
       "httpStatus": 200,
-      "fingerprint": "6433d2f1df798a10d062dd510311168ac94446f7922e7d476c9c21940f57f5ac",
-      "contentLength": 19992,
+      "fingerprint": "df48a9fa961391b0b41d69062553c6f66240c1666ac37b7e6a87adced62ccdd0",
+      "contentLength": 19991,
       "baselineAt": "2026-07-27T15:23:02.035Z"
     },
     "inria-internships": {
@@ -60,8 +60,8 @@
       "finalUrl": "https://www.inria.fr/en/do-internship",
       "status": "active",
       "httpStatus": 200,
-      "fingerprint": "8ae2499ab09cd5f207323dec4998575462db01aec27093d4adc58e31ec59d164",
-      "contentLength": 34751,
+      "fingerprint": "aebe76770cf5a78403fe74c1b7731c96de2d1b705c6a991495eba300014117a8",
+      "contentLength": 34773,
       "baselineAt": "2026-07-27T15:23:01.882Z"
     },
     "cwi-master-projects": {
@@ -78,8 +78,8 @@
       "finalUrl": "https://ellis.eu/research/jobs",
       "status": "active",
       "httpStatus": 200,
-      "fingerprint": "2b2f7b951b28ceaa744b4c9edc43543d018e2efafe7ce6de0b268003eed41475",
-      "contentLength": 4651,
+      "fingerprint": "e33c145021dfc28f8bc4345581c438114876d4b1a411a1877a796ad2b44f97d3",
+      "contentLength": 4708,
       "baselineAt": "2026-07-27T15:23:04.064Z"
     },
     "cambridge-srim": {
@@ -105,8 +105,8 @@
       "finalUrl": "https://www.daad.de/rise/en/rise-germany/find-an-internship/what-applicants-need-to-know/",
       "status": "active",
       "httpStatus": 200,
-      "fingerprint": "d346c2d4ef380708309fd41e174d3b61888e07aa66a138a640499e3da36db30f",
-      "contentLength": 11030,
+      "fingerprint": "cf74a54357757a62c57717a7b3d1d6ba5bafffb896d390b4ab3fe59c4cf638eb",
+      "contentLength": 11077,
       "baselineAt": "2026-07-27T15:23:02.032Z"
     },
     "desy-summer": {
@@ -114,8 +114,8 @@
       "finalUrl": "https://summerstudents.desy.de/",
       "status": "active",
       "httpStatus": 200,
-      "fingerprint": "d102e654cf3f30ce61d9a626b4170430bf9eac1114739c3d6b3296edc2eaba3a",
-      "contentLength": 2914,
+      "fingerprint": "917a10c29019d22eeb2ce11eed0ccedcc948991d2992a44b487b8ce929a55316",
+      "contentLength": 2772,
       "baselineAt": "2026-07-27T15:23:02.356Z"
     },
     "ista-internships": {
@@ -132,8 +132,8 @@
       "finalUrl": "https://www.psi.ch/en/summerstudents",
       "status": "active",
       "httpStatus": 200,
-      "fingerprint": "2495b3a9dd98b031856c66490eb905b955352012c8af1b86dfe3589652f2db69",
-      "contentLength": 5136,
+      "fingerprint": "557f1f93a1bc19f9df86e33f414d5d9dafc29599843a8e827f01597694a7e21c",
+      "contentLength": 5127,
       "baselineAt": "2026-07-27T15:23:02.450Z"
     },
     "esa-internships": {
@@ -141,7 +141,7 @@
       "finalUrl": "https://www.esa.int/About_Us/Careers_at_ESA/Student_Internships2",
       "status": "active",
       "httpStatus": 200,
-      "fingerprint": "932b1703d7abbb37b676534907d5dbda14f575d42430cc2f8edfd5a8de6fb1cb",
+      "fingerprint": "06da173cceb453a72f62384eb05a4947ba4e817e366cfcfc0fb5f59720423315",
       "contentLength": 6716,
       "baselineAt": "2026-07-27T15:23:02.448Z"
     },
@@ -150,8 +150,8 @@
       "finalUrl": "https://www.esrf.fr/fr/home/education/summer-student-programme.html",
       "status": "active",
       "httpStatus": 200,
-      "fingerprint": "0da92089f192d85ee468f6c6215cf69b311cfba29245c64a2341bc708c7ee993",
-      "contentLength": 4089,
+      "fingerprint": "ab94e9bd69ea8e678b217209dea81faddf7c43b00d4c117d278a1711c9214d8a",
+      "contentLength": 4059,
       "baselineAt": "2026-07-27T15:23:03.295Z"
     },
     "iter-internships": {
@@ -159,17 +159,17 @@
       "finalUrl": "https://www.iter.org/public/jobs/internships",
       "status": "active",
       "httpStatus": 200,
-      "fingerprint": "ac13c5e3cb9ec204d42c052835a89d9726cbaf876b4fb3f4e84e472e825f0e3c",
-      "contentLength": 13376,
+      "fingerprint": "1506d547d872e7b8b71cd7b712212c7635ea046048d71e8927a2f361fe92a7d1",
+      "contentLength": 13410,
       "baselineAt": "2026-07-27T15:23:04.811Z"
     },
     "fair-get-involved": {
       "url": "https://fair-center.eu/career/get_involved/short_term_internship",
       "finalUrl": "https://fair-center.eu/career/get_involved/short_term_internship",
-      "status": "active",
-      "httpStatus": 200,
-      "fingerprint": "48a1fea1974bd7a3d61fe4c3d76198f02046d10d73f25e69940db6752fe6bb0d",
-      "contentLength": 9301,
+      "status": "missing",
+      "httpStatus": 404,
+      "fingerprint": "c4b51af3f4e4f7501e373a1efba0529d42fc7e3292f2d49cef078fd0ee637601",
+      "contentLength": 787,
       "baselineAt": "2026-07-27T15:23:03.431Z"
     },
     "bcam-visiting": {
@@ -177,8 +177,8 @@
       "finalUrl": "https://www.bcamath.org/en/join-us/bcam-visiting-programmes",
       "status": "active",
       "httpStatus": 200,
-      "fingerprint": "adcda06a1417d8fe88f657b9db12a518e4a80677c0d3de70e62ccbeda9943235",
-      "contentLength": 6129,
+      "fingerprint": "554bd7a94a2c768a7545db537f2a7f98d541dbd22ac00338f999b333829c9e99",
+      "contentLength": 6117,
       "baselineAt": "2026-07-27T15:23:03.480Z"
     },
     "imdea-software": {
@@ -195,8 +195,8 @@
       "finalUrl": "https://www.imperial.ac.uk/urop/",
       "status": "redirected",
       "httpStatus": 200,
-      "fingerprint": "708b609f4622fd99a78c3615a9b5a514cd2d418ac9586a562177e06b35a6fd92",
-      "contentLength": 4482,
+      "fingerprint": "adb6fee1e4c0ec1e95c8c53edd3b36f9c6f2d459c776774b47ae3acc58cbdb2e",
+      "contentLength": 4515,
       "baselineAt": "2026-07-27T15:23:04.150Z"
     },
     "lms-bursaries": {
@@ -204,8 +204,8 @@
       "finalUrl": "https://www.lms.ac.uk/grants/undergraduate-research-bursaries/applications",
       "status": "active",
       "httpStatus": 200,
-      "fingerprint": "4521edeb0480c60827da0ca4b9a0880d003c8e51f2b60482d2b20a7c43d67f2c",
-      "contentLength": 12846,
+      "fingerprint": "047bf25376bdad37f63b140830836032973ab96c1f3d8cb70b9c6c9a04ffd240",
+      "contentLength": 12900,
       "baselineAt": "2026-07-27T15:23:04.097Z"
     },
     "epfl-e3": {
@@ -213,8 +213,8 @@
       "finalUrl": "https://eee.epfl.ch/",
       "status": "active",
       "httpStatus": 200,
-      "fingerprint": "361b3dbbb88be6e1fecbb80d312ae25d2e9f2e96c2e3a7600c77419b21105b3c",
-      "contentLength": 730,
+      "fingerprint": "b8070a99fb5b269af5f302770204c3f61c03e064c32e1c6fc5122094c850c58c",
+      "contentLength": 742,
       "baselineAt": "2026-07-27T15:23:03.634Z"
     },
     "epfl-summer-lab": {
@@ -222,8 +222,8 @@
       "finalUrl": "https://www.epfl.ch/education/bachelor/enhanced-learning-programs/summer-in-the-lab-internship-program/",
       "status": "active",
       "httpStatus": 200,
-      "fingerprint": "d94d02471a9b48c0fca866b3d13dc280f72bf6c7090bda0ea0eae19839513b22",
-      "contentLength": 7699,
+      "fingerprint": "365a14f0c5529224cecfe459adc19b81dcc9b49772dd749f36cb520ee2f1555e",
+      "contentLength": 7770,
       "baselineAt": "2026-07-27T15:23:04.728Z"
     },
     "epfl-life-sciences": {
@@ -258,8 +258,8 @@
       "finalUrl": "https://training.vbc.ac.at/summer-school/",
       "status": "active",
       "httpStatus": 200,
-      "fingerprint": "1fef8567445b544d75cb4373a48e7d27eebb6d79ecbf01ea17ccf86a28feee60",
-      "contentLength": 4671,
+      "fingerprint": "d4b6dc1a0d24bf617b23ff631b6f51b5b44bf73bb70e7627c0ccddcc3b66eaee",
+      "contentLength": 4640,
       "baselineAt": "2026-07-27T15:23:04.129Z"
     },
     "amgen-cambridge": {
@@ -267,8 +267,8 @@
       "finalUrl": "https://amgenscholars.bio.cam.ac.uk/",
       "status": "active",
       "httpStatus": 200,
-      "fingerprint": "4f1f73f1ccfcec3990b3141192a6bbbf42b2ce7bfd9a20757d8042dbba16d44a",
-      "contentLength": 2470,
+      "fingerprint": "df7464d941ff7cec12b2767ed4768114f235ac27735be90f87a3410cf0ef8649",
+      "contentLength": 2489,
       "baselineAt": "2026-07-27T15:23:04.156Z"
     },
     "amgen-lmu": {
@@ -285,8 +285,8 @@
       "finalUrl": "https://careers.cern/programmes/summer-studentship/",
       "status": "redirected",
       "httpStatus": 200,
-      "fingerprint": "1fb518a8cfffc0a23175c93599f2a07bd6721a4cb2c5522db927b25a024da4ea",
-      "contentLength": 11077,
+      "fingerprint": "448c5b88eb2f86e22f702315b0568cde5b2d93b29bccfc670e83455115da4e25",
+      "contentLength": 11332,
       "baselineAt": "2026-07-27T15:23:05.416Z"
     }
   }
